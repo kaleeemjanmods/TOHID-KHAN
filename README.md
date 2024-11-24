@@ -3,7 +3,7 @@
 
 <p align="center">  
   <a href="https://youtu.be/nE4v4KWBfAU">
-    <img alt="TOHID" src="https://i.ibb.co/yhP0jDK/20241114-161433.jpg">
+    <img alt="TOHID" src="https://i.imgur.com/M1BzE37.jpeg">
   </a>
 </p>
 <p align="center">
