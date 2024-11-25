@@ -305,7 +305,7 @@ This project is licensed under the [Apache-2.0 license](LICENSE) - see the LICEN
 
 ## ⚠️ Disclaimer
 
-*TOHID KHAN Bot is not affiliated with WhatsApp Inc. Misusing the bot could result in a temporary or permanent WhatsApp ban. Globaltechinfo is not responsible for any bans or restrictions that may occur.*
+*TOHID KHAN Bot is not affiliated with WhatsApp Inc. Misusing the bot could result in a temporary or permanent WhatsApp ban. Mr Tohid is not responsible for any bans or restrictions that may occur.*
 
 ---
 
