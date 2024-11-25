@@ -16,7 +16,7 @@
   
 ----
 
- <p align="center"><img src="https://profile-counter.glitch.me/{TOHID-KHAN}/count.svg" alt="GlobalTechInfo :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Tohidkhan6332}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{TOHID-KHAN}/count.svg" alt="TohidTech :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Tohidkhan6332}/count.svg" /></p>
 
 ----
 <h1 align="center"> EXTERNAL PLUGINS </h1>
@@ -59,7 +59,7 @@ set the Env Vars.
 ## 🎬 Watch the Tutorial
 
 To set up the TOHID-KHAN quickly, follow our detailed tutorial on YouTube:
-[![TOHID-KHAN YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/nE4v4KWBfAU)
+[![TOHID-KHAN YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtube.com/@tohidkhan_6332)
 
 ---
 
@@ -84,7 +84,7 @@ To set up the TOHID-KHAN quickly, follow our detailed tutorial on YouTube:
 ### **PAIRING CODE QR CODE**
    - Visit the bot site to generate a pairing code and get **SESSION ID.**
 
-     [![TOHID KHAN Github Repo](https://img.shields.io/badge/Whatsapp-Pair%20Code-green?style=for-the-badge&logo=Whatsapp)](https://ultra-pair-e2afa02e65c6.herokuapp.com/)
+     [![TOHID KHAN Github Repo](https://img.shields.io/badge/Whatsapp-Pair%20Code-green?style=for-the-badge&logo=Whatsapp)](https://web-pair-qr.onrender.com)
 
 ### **Step-by-Step Deployment Guide**
 
@@ -148,7 +148,7 @@ To set up the TOHID-KHAN quickly, follow our detailed tutorial on YouTube:
       **Tutorial For Panel**
 1. First You Have to Sign up on discord using web or app download from playstore.
    <br>
-   <a href='https://youtu.be/nE4v4KWBfAU' target="_blank">
+   <a href='https://youtube.com/@tohidkhan_6332' target="_blank">
       <img alt='Deployment Tutorial' src='https://img.shields.io/badge/-Tutorial-red?style=for-the-badge&logo=youtube&logoColor=white'/>
    </a>
    
