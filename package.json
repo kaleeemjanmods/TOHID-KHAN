@@ -1,5 +1,5 @@
 {
-    "name": "Tohid",
+    "name": "TOHID-KHAN",
     "version": "3.1.0",
     "description": "Advanced WhatsApp",
     "main": "index.js",
@@ -22,15 +22,15 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "Tohid-bot",
-        "Tohid-bot-khan",
+        "ultra-bot",
+        "Global-bot-md",
         "multi-device",
         "MD",
         "baileys-md"
     ],
     "homepage": "https://github.com/Tohidkhan6332/TOHID-KHAN",
     "author": {
-        "name": "TohidTech"
+        "name": "GlobalTechInfo"
     },
     "repository": {
         "type": "git",
@@ -89,7 +89,7 @@
         "mime-types": "^2.1.35",
         "moment-timezone": "^0.5.37",
         "mongoose": "^7.4.1",
-        "nayan-media-downloader": "*",
+        "nayan-video-downloader": "*",
         "node-fetch": "^3.3.1",
         "node-gtts": "^2.0.2",
         "node-webpmux": "^3.1.3",
