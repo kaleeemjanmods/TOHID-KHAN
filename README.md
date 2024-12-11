@@ -86,6 +86,10 @@ To set up the TOHID-KHAN quickly, follow our detailed tutorial on YouTube:
 
      [![TOHID KHAN Github Repo](https://img.shields.io/badge/Whatsapp-Pair%20Code-green?style=for-the-badge&logo=Whatsapp)](https://tohid-md-web-pair-qr.onrender.com)
 
+### DEPLOY BY SESSION ID (WHATSAPP LOG WITH PAIR CODE)
+
+<a href='https://tohid-khan-web.vercel.app/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/%F0%9F%9A%80%EF%B8%8F%E2%80%8D%20-%F0%9F%93%8B%20%20PAIR%20CODE%20WEB%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-blue' width="400" height="50" alt="Deploy bot"/></a>
+
 ### **Step-by-Step Deployment Guide**
 
 **Option A: Deploy on Heroku**
@@ -357,14 +361,6 @@ npm install && npm start
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 - **Star ⭐ the repo if you like TOHID-KHAN.**
-
-## Credits
-
-| [![Guru322](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) | [![FG98](https://github.com/FG98F.png?size=100)](https://github.com/FG98F) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
-| --- | --- | --- |
-| [Guru322](https://github.com/Guru322) | [FG98](https://github.com/FG98F) | [WhiskeySockets](https://github.com/WhiskeySockets) |
-
-
 
 ## Main Developer
 <a href="https://github.com/Tohidkhan6332"><img src="https://github.com/Tohidkhan6332.png" width="250" height="250" alt="Tohidkhan6332"/></a>
