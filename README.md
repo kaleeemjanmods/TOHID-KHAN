@@ -2,7 +2,7 @@
 #### MULTI DEVICE WHATSAPP BOT TOHID KHAN | STILL MANY HIDDEN COMMANDS
 
 <p align="center">  
-  <a href="https://youtu.be/nE4v4KWBfAU">
+  <a href="https://youtube.com/@tohidkhan_6332">
     <img alt="TOHID" src="https://i.imgur.com/M1BzE37.jpeg">
   </a>
 </p>
