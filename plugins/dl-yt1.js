@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import pkg from 'nayan-video-downloader';
+import pkg from 'nayan-videos-downloader';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import fs from 'fs';
@@ -71,7 +71,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
 
         const title = response.data.title || 'audio';
         const safeTitle = title.substring(0, 4).replace(/[<>:"/\\|?*]/g, '_'); // Get the first four characters
-        const caption = `POWERED BY TOHID-KHAN`;
+        const caption = `*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚃𝙾𝙷𝙸𝙳-𝙺𝙷𝙰𝙽*`;
 
         const mediaResponse = await fetchWithRetry(audioUrl, {
             headers: {
