@@ -158,6 +158,47 @@ To set up the TOHID-KHAN quickly, follow our detailed tutorial on YouTube:
    
 ---
 
+-----------
+
+### <br>   ❖ DEPLOY_WORKFLOWS ❖
+```
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+```
+
+-----------
+
 ## Support & Community
 
 <p align="center">Need help? Create an <a href="https://github.com/Tohidkhan6332/TOHID-KHAN/issues">issue</a> or <a href="https://wa.me/917849917350?text=Hello+Tohid+Tech,+I+need+assistance+with+Tohid+Khan+Bot">Contact Us on WhatsApp</a>.</p>
