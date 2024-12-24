@@ -201,12 +201,12 @@ jobs:
 
 ## Support & Community
 
-<p align="center">Need help? Create an <a href="https://github.com/Tohidkhan6332/TOHID-KHAN/issues">issue</a> or <a href="https://wa.me/917849917350?text=Hello+Tohid+Tech,+I+need+assistance+with+Tohid+Khan+Bot">Contact Us on WhatsApp</a>.</p>
+<p align="center">Need help? Create an <a href="https://github.com/Tohidkhan6332/TOHID-KHAN/issues">issue</a> or <a href="https://wa.me/917849917350?text=Hello+Tohid+Khan,+I+need+assistance+with+Tohid+Khan+Bot">Contact Us on WhatsApp</a>.</p>
 
 ---
 
 ### 📜 Table of Contents
-1. [About TOHID KHAN](#-about-ultra-md)
+1. [About TOHID KHAN](#-about-Tohid-md)
 2. [Features](#-features)
 3. [Installation](#-installation)
 4. [Usage](#-usage)
