@@ -1,6 +1,6 @@
 {
     "name": "Tohid",
-    "version": "3.1.9",
+    "version": "3.2.9",
     "description": "Advanced WhatsApp",
     "main": "index.js",
     "type": "module",
@@ -30,7 +30,7 @@
     ],
     "homepage": "https://github.com/Tohidkhan6332/TOHID-KHAN",
     "author": {
-        "name": "Tohidkhan6332"
+        "name": "TohidKhan"
     },
     "repository": {
         "type": "git",
@@ -51,9 +51,8 @@
         "acrcloud": "^1.4.0",
         "awesome-phonenumber": "^3.4.0",
         "axios": "^1.4.0",
-        "api-qasim": "^3.0.0",
+        "api-qasim": "^3.2.3",
         "chalk": "^5.1.0",
-        "canvas": "*",
         "cheerio": "^1.0.0-rc.12",
         "chess.js": "*",
         "colors": "1.4.0",
