@@ -22,7 +22,7 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "tohid-bot",
+        "ultra-bot",
         "Global-bot-md",
         "multi-device",
         "MD",
@@ -30,7 +30,7 @@
     ],
     "homepage": "https://github.com/Tohidkhan6332/TOHID-KHAN",
     "author": {
-        "name": "TohidKhan"
+        "name": "Tohidkhan6332"
     },
     "repository": {
         "type": "git",
@@ -51,7 +51,7 @@
         "acrcloud": "^1.4.0",
         "awesome-phonenumber": "^3.4.0",
         "axios": "^1.4.0",
-        "api-qasim": "^3.2.3",
+        "api-qasim": "*",
         "chalk": "^5.1.0",
         "cheerio": "^1.0.0-rc.12",
         "chess.js": "*",
