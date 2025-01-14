@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './assets/A.jpg'
+let pp = './assets/tohid.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -40,23 +40,10 @@ let str = `
 🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
 
 📋 *_Quote of the day: ${quote}_* 📋
-
-『 *TOHID-KHAN*』
-
-☆┏━『 *User Info* 』 
-☆┃ 🪪  *Name:* ${name}  
-☆┃ 🏆  *Rank:* ${role}
-☆┃ 🎮  *XP:* ${exp} 
-☆┗━━━━━━━━━━⦿
-☆┏━━ 『 *Date/Time* 』
-☆┃ 📆   ${date} 
-☆┃ ⏰ *Time:*  ${wib} 
-☆┗━━━━━━━━━━⦿
-☆┏━━『 *Bot Status* 』
-☆┃  🎩 *Bot Name:* ${botname}
-☆┃ 📣  *Prefix:* ${usedPrefix} 
-☆┃ 🕓  *Uptime:* ${uptime}
-☆┗━━━━━━━━━━⦿
+> ➠ *Bot Name* : *TOHID-AI*
+> ➠ *Version*     : *4 . 0 . 0*
+> ➠ *Type*          : *PLUGINS*
+> ➠ *Platform*   : *LINUX*
 
 ◈┏━⟪ *MENU* ⟫━━⦿
 ◈┃• groupmenu
@@ -84,16 +71,16 @@ let str = `
 ◈┃• aimenu
 ◈┃• aeditor
 ◈┃• imagen
+◈┃• textpro
 ◈┃• menu
 ◈┃• menu3
 ◈┃• menu4
 ◈┃• fancy
-◈┃• fancy2
 ◈┗━♪♪━★━☆━⦿
 
-© *TOHID-KHAN*
+*© TOHID-AI*
 
-> 💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book!_* 💡
+> 💡 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 💡
 `
 
     

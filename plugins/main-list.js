@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         : m.sender
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
 
-  let pp = './assets/B.jpg'
+  let pp = './assets/tohid.jpg'
   let more = String.fromCharCode(8206)
   let readMore = more.repeat(850)
 
@@ -71,6 +71,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         '🃏 *' +
         usedPrefix +
         'randompic* - Random Images you might like and love.\n\n' +
+        '🏖️ *' +
+        usedPrefix +
+        'textpro* - Generate Beautiful Logos Using Text Of Your Choice.\n\n' +
         '🎥 *' +
         usedPrefix +
         'randomvid* - Random Videos you might like and love.\n\n' +
@@ -108,7 +111,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •listprem
 ◈ •listmenu
 ◈ •mrcs
-╰─『 *TOHID-KHAN* 』─❍` // Your bot menu message here
+◈ © Tohidkhan6332
+╰─『 *TOHID-AI* 』─❍` // Your bot menu message here
       break
       case 'aimenu':
       lkr=`
@@ -125,7 +129,28 @@ let handler = async (m, { conn, usedPrefix, command }) => {
  ◈ •ai
  ◈ •fact
  ◈ •why
- ╰─『 *TOHID-KHAN* 』─❍` //
+ ╰─『 *TOHID-AI* 』─❍` //
+ break
+
+ case 'logosmaker':
+ case 'ephoto':
+ case 'textpro':
+      lkr=`
+ ╭───『 *AI* 』─❍
+ ◈ •papercut
+ ◈ •logomaker
+ ◈ •bpstyle
+ ◈ •cartoon
+ ◈ •glossy
+ ◈ •writetext
+ ◈ •texteffect
+ ◈ •lighteffect
+ ◈ •advancedglow
+ ◈ •pixelglitch
+ ◈ •clouds
+ ◈ •galaxy
+ ◈ •beach
+ ╰─『 *TOHID-AI* 』─❍` //
  break
       case 'imagen':
       case 'imagenai':
@@ -142,7 +167,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
  ◈ •realistic
  ◈ •lexica
  ◈ •dalle
- ╰─『 *TOHID-KHAN* 』─❍` //
+ ╰─『 *TOHID-AI* 』─❍` //
  break
     case 'ownermenu':
       lkr = `
@@ -197,7 +222,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •allow
 ◈ •listban
 ◈ •join
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
       case 'randompic':
       lkr = `
@@ -235,7 +260,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •pubg
 ◈ •wallml
 ◈ •wallhp
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
       case 'randomvid':
       lkr = `
@@ -248,7 +273,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •tiktokkayes
 ◈ •tiktokpanrika
 ◈ •tiktoknotnot
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'groupmenu':
       lkr = `
@@ -288,7 +313,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •poll
 ◈ •simulate
 ◈ •admins
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'downloadermenu':
     case 'dlmenu':
@@ -297,35 +322,43 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ╭───『 *Download* 』─❍
 ◈ •likee
 ◈ •pinterest
+◈ •pinterest2
 ◈ •threads
 ◈ •capcut
 ◈ •itunes
 ◈ •play
 ◈ •play2
 ◈ •play5
+◈ •audio
+◈ •video
 ◈ •mega
 ◈ •ytsearch
 ◈ •ytmp3 
 ◈ •ytmp4
 ◈ •gdrive
 ◈ •gitclone
+◈ •githubstalk
+◈ •npmstalk
 ◈ •githubdl
 ◈ •twitter
 ◈ •tiktok
+◈ •ttstalk
 ◈ •gimage
 ◈ •insta
 ◈ •igstory
+◈ •igstalk
 ◈ •mediafire
 ◈ •facebook
 ◈ •wallpapers
 ◈ •rwall
 ◈ •rnekos
 ◈ •swdl
+◈ •apkdl
 ◈ •apksearch
 ◈ •playstore
 ◈ •ringtone
 ◈ •dlstatus
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'economymenu':
     case 'economy':
@@ -359,7 +392,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •transfer
 ◈ •todiamond
 ◈ •tomoney
-╰─『 *TOHID-KHAN* 』─❍` //
+╰────────❍` //
       break
     case 'funmenu':
       lkr = `
@@ -379,7 +412,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •ytcomment
 ◈ •stupid
 ◈ •lolicon
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
       case 'animereactions':
 case 'reactions':
@@ -410,7 +443,7 @@ lkr=`
 ◈ •poke
 ◈ •dance
 ◈ •cringe
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'animemenu':
       lkr = `
@@ -452,7 +485,7 @@ lkr=`
 ◈ •sasuke
 ◈ •sakura
 ◈ •kotori
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
       case 'infoanime':
       lkr = `
@@ -491,7 +524,7 @@ lkr=`
 ◈ •anime sasuke
 ◈ •anime sakura
 ◈ •anime kotori
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'gamemenu':
     case 'gamesmenu':
@@ -509,7 +542,7 @@ lkr=`
 ◈ •casino
 ◈ •guessflag
 ◈ •fhint
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'stickermenu':
       lkr = `
@@ -536,7 +569,7 @@ lkr=`
 ◈ •attp
 ◈ •attp2
 ◈ •attp3
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'toolmenu':
     case 'toolsmenu':
@@ -590,7 +623,7 @@ lkr=`
 ◈ •voz
 ◈ •remini
 ◈ •enhance
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
 break
 case 'aeditor':
 case 'audioeditor':
@@ -609,7 +642,7 @@ lkr=`
 ◈ •tupai
 ◈ •squirrel
 ◈ •chipmunk
-╰─『 *TOHID-KHAN* 』─❍` //
+╰─『 *TOHID-AI* 』─❍` //
       break
     case 'nsfwmenu': 
       lkr = `
@@ -694,7 +727,7 @@ lkr=`
   ◈ •pack
   ◈ •xvid
   ◈ •xnxx
-  ╰─『 *TOHID-KHAN* 』─❍` //
+  ╰─『 *TOHID-AI* 』─❍` //
       break
     case 'logomenu':
     case 'makermenu':
@@ -725,7 +758,7 @@ lkr=`
   ◈ •lolicon
   ◈ •logololi
   ◈ •ytcomment <comment>
-  ╰─『 *TOHID-KHAN* 』─❍` //
+  ╰─『 *TOHID-AI* 』─❍` //
       break
     default:
       lkr = `Invalid command. Type ${usedPrefix}list to see available options.`
@@ -744,6 +777,9 @@ handler.help = [
   'animereactions',
   'reactions',
   'imagen',
+  'textpro',
+  'textmaker',
+  'logosmaker',
   'imagenai',
   'animemenu',
   'aeditor',
@@ -777,6 +813,9 @@ handler.command = [
   'animereactions',
   'reactions',
   'imagen',
+  'textpro',
+  'textmaker',
+  'logosmaker',
   'imagenai',
   'animemenu',
   'aeditor',
